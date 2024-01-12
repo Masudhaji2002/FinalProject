@@ -1,0 +1,17 @@
+┌──(mmmas㉿Mmmas)-[~]
+└─$ mkdir /home/mmmas/final_work
+
+┌──(mmmas㉿Mmmas)-[~]
+└─$ mv human_friends.txt /home/mmmas/final_work/
+
+┌──(mmmas㉿Mmmas)-[~]
+└─$ tree
+.
+├── ~
+├── CREATE
+├── docker-compose.yaml
+├── dockerfile
+├── final_work
+│   ├── human_friends.txt
+│   ├── task_1.txt
+│   └── task_2.txt

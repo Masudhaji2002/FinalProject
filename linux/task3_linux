@@ -1,0 +1,24 @@
+Скачиваем пакет для установки:
+
+┌──(mmmas㉿Mmmas)-[~]
+└─$wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+
+Устанавливаем пакет mysql-connector-j_8.0.32-1ubuntu22.04_all.deb:
+
+┌──(mmmas㉿Mmmas)-[~]
+└─$ sudo dpkg -i /home/mmmas/Загрузки/mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+
+Удаляем пакет и его сопутствующие пакеты:
+
+┌──(mmmas㉿Mmmas)-[~]
+└─$ sudo dpkg -r mysql-connector-j
+(Чтение базы данных … на данный момент установлено 759598 файлов и каталогов.)
+Удаляется mysql-connector-j (8.0.32-1ubuntu22.04) …
+
+
+┌──(mmmas㉿Mmmas)-[~]
+└─$ sudo apt-get autoremove
+Чтение списков пакетов… Готово
+Построение дерева зависимостей… Готово
+Чтение информации о состоянии… Готово
+Обновлено 0 пакетов, установлено 0 новых пакетов, для удаления отмечено 0 пакетов, и 2126 пакетов не обновлено.
